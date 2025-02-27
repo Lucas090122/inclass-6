@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', git 'https://github.com/Lucas090122/inclass-6.git'
+                git branch: 'main', url: 'https://github.com/Lucas090122/inclass-6.git'
             }
         }
         stage('Build') {
